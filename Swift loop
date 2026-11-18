@@ -1,0 +1,7 @@
+let fruits = ["Apple", "Banana", "Cherry"]
+for fruit in fruits {
+  print(fruit)
+}
+for (i, fruit) in fruits.enumerated() {
+  print("\(i+1): \(fruit)")
+}
