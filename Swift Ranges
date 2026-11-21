@@ -1,0 +1,11 @@
+//closed range
+for n in 1...5 {
+  print(n)
+}
+//half-opened range
+for n in 1..<5 {
+  print(n)
+}
+let r = 10...12
+print(r.contains(11))
+print(r.contains(13))
